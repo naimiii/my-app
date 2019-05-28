@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class Women extends Component{
   render(){
-    retrun(
+    return(
       <h1>
         Women Component
       </h1>

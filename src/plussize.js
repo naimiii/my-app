@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class PlusSize extends Component{
   render(){
-    retrun(
+    return(
       <h1>
         Plus Size Component
       </h1>
