@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 
-class plussize extends Component{
+class PlusSize extends Component{
   render(){
     retrun(
       <h1>
-        Header in react js
+        Plus Size Component
       </h1>
     )
   }
 }
-export default plussize;
+
+export default PlusSize;
