@@ -2,11 +2,12 @@ import React, {Component} from 'react';
 
 class Men extends Component{
   render(){
-    retrun(
+    return(
         <h1>
-        Header in react js
+       Mens Component
       </h1>
     )
   }
 }
+
 export default Men;

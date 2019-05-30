@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 
-class women extends Component{
+class Women extends Component{
   render(){
-    retrun(
-      <h1>
-        Header in react js
+    return(
+      <h1> 
+        Women Component
       </h1>
     )
   }
 }
-export default women;
+export default Women;

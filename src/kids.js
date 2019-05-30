@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 
-class kids extends Component{
+class Kids extends Component{
   render(){
-    retrun(
+    return(
         <h1>
-        Header in react js
+        Kids Component.
       </h1>
     )
   }
 }
-export default kids;
+export default Kids;
