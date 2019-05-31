@@ -4,9 +4,10 @@ class PlusSize extends Component{
   render(){
     return(
       <h1>
-         Plus Size Component
+        Plus Size Component
       </h1>
     )
   }
 }
+
 export default PlusSize;

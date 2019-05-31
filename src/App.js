@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import Kids from './Kids';
+import Kids from './kids';
 import Men from './Men';
-import Women from './Women';
-import PlusSize from './PlusSize';
+import Women from './women';
+import PlusSize from './plussize';
 import Header from './Header';
 import { Route, Switch } from "react-router-dom";
 
 export default class App extends Component{
-   
+  
   render(){
     return(
       <div>
