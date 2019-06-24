@@ -1,6 +1,6 @@
 Nalma's E-commerce full-stack project:
 
-# To run project locally follow the commands below in you terminal
+### To run project locally follow the commands below in you terminal
 
 `git clone project or download and unzip`
 
@@ -21,4 +21,6 @@ Tech stack:
 [Postgresql](https://github.com/postgres/postgres),
 [React](https://github.com/facebook/react)
 
-Project under development
+***Project under development***
+
+### To contribute, check issues as we log our TO-DO there.
