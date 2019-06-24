@@ -18,7 +18,7 @@ While in root directory:
 
 Tech stack:
 [Express](https://github.com/expressjs/express),
-[Postgresql](https://github.com/postgres/postgres)
+[Postgresql](https://github.com/postgres/postgres),
 [React](https://github.com/facebook/react)
 
 Project under development
