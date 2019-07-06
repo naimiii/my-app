@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS nalmas-store;
-CREATE DATABASE nalmas-store;
+DROP DATABASE IF EXISTS store;
+CREATE DATABASE store;
 
-\c nalmas-store;
+\c store;
 
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
