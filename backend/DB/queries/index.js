@@ -1,4 +1,4 @@
-const { db }=require("../index");
+const { db } = require("../index");
 
 // get single user data
 export const getUser = (id) => 
