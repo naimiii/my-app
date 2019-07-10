@@ -1,6 +1,7 @@
 const { db }=require("../index");
 
-export const fetchUser = (id) => 
+// get single user data
+export const getUser = (id) => 
 {
     db.one('SELECT * FROM users WHERE active = $1', id)
     .then(data => {
