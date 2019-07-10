@@ -7,15 +7,15 @@ Nalma's E-commerce full-stack project:
 ## Start backend (Seed Database and Run server)
 While in root directory:
 1. `cd backend`
-2. `npm install`
-3. `npm run seed`
-4. `npm run start`
+2. `yarn install`
+3. `yarn run seed`
+4. `yarn run start`
 
 ## Start frontend (Run UI)
 While in root directory:
 1. `cd frontend`
-2. `npm install`
-3. `npm run start`
+2. `yarn install`
+3. `yarn run start`
 
 Tech stack:
 [Express](https://github.com/expressjs/express),
