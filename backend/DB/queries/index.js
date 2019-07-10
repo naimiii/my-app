@@ -1,4 +1,4 @@
-const { db } = require("../index").default;
+const { db } = require("../index");
 
 // get single user data
 const getUser = (id) => 
