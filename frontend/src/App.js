@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
-import Kids from './kids';
-import Men from './Men';
-import Women from './women';
-import PlusSize from './plussize';
-import Header from './Header';
+import React, { Component } from 'react';
+import Kids from './components/Kids/Kids';
+import Men from './components/Mens/Mens';
+import Women from './components/Womens/Womens';
+import PlusSize from './components/PlusSize/PlusSize';
+import Header from './components/Header/Header';
 import { Route, Switch } from "react-router-dom";
 
 export default class App extends Component{

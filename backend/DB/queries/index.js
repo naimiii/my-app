@@ -1,7 +1,7 @@
-const { db } = require("../index");
+const { db } = require("../index").default;
 
 // get single user data
-export const getUser = (id) => 
+const getUser = (id) => 
 {
     db.one('SELECT * FROM users WHERE active = $1', id)
     .then(data => {
@@ -13,3 +13,7 @@ export const getUser = (id) =>
         throw error;
     });
 };
+
+module.exports = {
+    getUser
+}
