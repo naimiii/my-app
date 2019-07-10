@@ -13,8 +13,9 @@ While in root directory:
 
 ## Start frontend (Run UI)
 While in root directory:
-1. `npm install`
-2. `npm run start`
+1. `cd frontend`
+2. `npm install`
+3. `npm run start`
 
 Tech stack:
 [Express](https://github.com/expressjs/express),
