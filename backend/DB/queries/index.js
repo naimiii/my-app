@@ -12,6 +12,13 @@ const getUser = (id) =>
         console.log('failed fetching user');
         throw error;
     });
+
+    const createUser =(id) =>
+    {
+        db.none('INSERT INTO  user (id,first_name, last_name,username,password_digest,email,phone)  VALUES (${id,first_name, last_name,username,password_digest,email,phone}, ${this})'),{
+            
+        }
+    }
 };
 
 module.exports = {
